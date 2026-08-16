@@ -71,8 +71,39 @@ html {
     scroll-behavior: smooth;
 }
 
+.text{
+    margin: 40px;
+}
 
+.joinus{
+    margin: 70px;
+}
 
+input{
+    background-color: rgb(251, 239, 198);
+    color: rgb(84, 42, 13);
+    border: 2px solid rgb(130, 88, 60);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+input:hover{
+    background-color: rgb(130, 88, 60);
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: rgb(251, 239, 198);
+    color: rgb(84, 42, 13);
+    border: 2px solid rgb(130, 88, 60);
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
 
 .down{
     width: 100%;
